@@ -1,0 +1,52 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    background-image: linear-gradient(to right, #0e192a, #486b7a  );
+    height: 100px;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 200%;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-link {
+    
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: beige;
+}
+
+.nav-link:hover {
+    color: beige;
+}
+
+.btn {
+    background-color: #0e192a;
+    color: white;
+}
+
+
+#login-section {
+    background: linear-gradient(rgb(15, 23, 43, 0.9), rgb(15, 23, 43, 0.9)), url("../img/iit.jpg") no-repeat center bottom/cover;
+    height: 100vh;
+    padding-top: 200px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+#cards {
+    padding-top: 30px;
+}
+

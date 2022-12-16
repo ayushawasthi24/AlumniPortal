@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Portal</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap'); </style>
+ </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"><img src="img/logo.png" alt="IIT Indore" width="70" height="70"></a>
+          <a class="navbar-brand" href="#" aria-multiline="true">IIT Indore Alumni Association</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn" href="#login-section">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <section class="mx-auto">
+        <div class="container animate slideInLeft" id="cards">
+          <div class="row">
+            <h2>Alumni Updates</h2>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/gaurav.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">Gaurav Parchani's Dozee Healthtech Goes Global!</h5>
+                  <p class="card-text">Our alumnus, Mr Gaurav Parchani (BTech ME 2013) had come up with a startup, Dozee which is now India's first contactless remote patient monitoring device, that..</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/sky.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alumni Magazine 2019 (Decennial celebration Edition)</h5>
+                  <p class="card-text">The Alumni Cell is proud to announce the Alumni Magazine IIT Indore 2019. Articles curated from our Alumni and students around different topics and categories. Enjoy reading the magazine and do let us know your feedback and views.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="img/friends.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Friends for Life: 2 Stories of True Friendship from IITI Campus!</h5>
+                  <p class="card-text">Friendship Day Special: View all featured Friendship Stories from Alumni over the years. Wishing you all a Very Happy Friendships Day!</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      <br><br>
+      <section>
+        <div class="container" id="login-section">
+          <h1>Login</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </form>
+        </div>
+      </section>
+      <br><br><br><br>
+      
+      <div class="container">
+        <div class="h2">Image Gallery</div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/convocation1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/convocation2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/convocation3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col border">
+            <form ">
+              <h2>Reach Out</h2><br>
+              <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPhone1" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="exampleInputPhone1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputMessage" class="form-label">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col border">
+            <h2>Contact Info</h2><br><br>
+            <div class="container">
+              <p>Alumni and Corporate Relations Office,<br>
+                7th floor, Abhinandan Bhavan,<br>
+                Indian Institute of Technology Indore,<br>
+                Khandwa Road, Simrol,<br>
+                Indore-453552<br>
+                India<br><br><br>
+                +91-731-6603122/+91-731-6603555<br><br><br>
+                alumnicell@iiti.ac.in acroffice@iiti.ac.in</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="container my-5">
+
+        <footer class="text-center text-lg-start" style="background-color: #131833;">
+          <div class="container d-flex justify-content-center py-5">
+            <a href="https://www.facebook.com/iitialumnicell/">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #4c61cc;">
+              <i class="fa fa-facebook-f"></i>
+            </button></a>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #4c61cc;">
+              <i class="fa fa-youtube"></i>
+            </button>
+            <a href="https://www.instagram.com/alumni_cell_iiti/?hl=en">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #4c61cc;">
+              <i class="fa fa-instagram"></i>
+            </button></a>
+            <a href="https://twitter.com/AlumniIit">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #4c61cc;">
+              <i class="fa fa-twitter"></i>
+            </button></a>
+          </div>
+          <div class="text-center text-white p-3" style="background-color: rgba(24, 45, 75, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://alumni.iiti.ac.in/">Alumni IITI</a>
+          </div>
+        </footer>
+        
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
